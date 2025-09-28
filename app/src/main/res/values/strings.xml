@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PPS App</string>
+    <string name="app_name_full">PPS - Volvamos a Empezar</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="create_account">Crear Cuenta</string>
+    <string name="forgot_password">Recuperar Contraseña</string>
+    <string name="logo_pps">Logo PPS Volvamos a Empezar</string>
+</resources>

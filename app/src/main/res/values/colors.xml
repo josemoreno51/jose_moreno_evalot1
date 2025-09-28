@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores principales rojo, verde y negro -->
+    <color name="primary_red">#FF0000</color>
+    <color name="primary_green">#00FF00</color>
+    <color name="primary_black">#000000</color>
+    <color name="dark_red">#CC0000</color>
+    <color name="dark_green">#00CC00</color>
+    <color name="light_black">#333333</color>
+
+    <!-- Colores de fondo y texto -->
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="medium_gray">#9E9E9E</color>
+    <color name="dark_gray">#666666</color>
+</resources>
