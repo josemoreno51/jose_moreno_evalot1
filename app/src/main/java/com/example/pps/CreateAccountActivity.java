@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package com.example.ppsapp;
+=======
+package com.example.pps;
+>>>>>>> bc0cbcb (solucione errores)
 
 import android.content.Intent;
 import android.os.Bundle;

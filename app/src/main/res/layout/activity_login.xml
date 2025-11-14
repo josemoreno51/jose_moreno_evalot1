@@ -15,18 +15,29 @@
         <!-- Logo PPS -->
         <ImageView
             android:id="@+id/ivLogo"
+<<<<<<< HEAD
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginTop="60dp"
+=======
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="40dp"
+>>>>>>> bc0cbcb (solucione errores)
             android:layout_marginBottom="40dp"
             android:src="@drawable/logo_pps"
             android:contentDescription="@string/logo_pps" />
 
+<<<<<<< HEAD
         <!-- Título en ROJO -->
+=======
+        <!-- Título -->
+>>>>>>> bc0cbcb (solucione errores)
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
+<<<<<<< HEAD
             android:text="Recuperar Contraseña"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -34,10 +45,20 @@
             android:textColor="@color/primary_red" />
 
         <!-- Instrucciones en NEGRO -->
+=======
+            android:text="@string/login_title"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/primary_color" />
+
+        <!-- Subtítulo -->
+>>>>>>> bc0cbcb (solucione errores)
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="32dp"
+<<<<<<< HEAD
             android:text="Ingresa tu email para recuperar tu contraseña"
             android:textSize="16sp"
             android:gravity="center"
@@ -87,6 +108,86 @@
             android:textSize="16sp"
             android:textColor="@color/white"
             app:backgroundColor="@color/primary_black"
+=======
+            android:text="@string/login_subtitle"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/gray" />
+
+        <!-- Campo Usuario -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:errorEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/username_hint"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Campo Contraseña -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:errorEnabled="true"
+            app:endIconMode="password_toggle">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password_hint"
+                android:inputType="textPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Botón Login -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/login_button"
+            android:textSize="16sp"
+            app:cornerRadius="8dp" />
+
+        <!-- Enlace Olvidé Contraseña -->
+        <TextView
+            android:id="@+id/tvForgotPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="@string/forgot_password_link"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textColor="@color/primary_color"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_gray"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Botón Crear Cuenta -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCreateAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_account_button"
+            android:textSize="16sp"
+            android:backgroundTint="@color/gray"
+>>>>>>> bc0cbcb (solucione errores)
             app:cornerRadius="8dp" />
 
     </LinearLayout>

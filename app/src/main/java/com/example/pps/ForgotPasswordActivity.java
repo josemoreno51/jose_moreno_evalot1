@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package com.example.ppsapp;
+=======
+package com.example.pps;
+>>>>>>> bc0cbcb (solucione errores)
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,7 +16,11 @@ public class ForgotPasswordActivity extends AppCompatActivity {
 
     private TextInputEditText etEmail;
     private TextInputLayout tilEmail;
+<<<<<<< HEAD
     private MaterialButton btnRecoverPassword, btnBack;
+=======
+    private MaterialButton btnResetPassword, btnBackToLogin;
+>>>>>>> bc0cbcb (solucione errores)
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +34,7 @@ public class ForgotPasswordActivity extends AppCompatActivity {
     private void initViews() {
         etEmail = findViewById(R.id.etEmail);
         tilEmail = findViewById(R.id.tilEmail);
+<<<<<<< HEAD
         btnRecoverPassword = findViewById(R.id.btnRecoverPassword);
         btnBack = findViewById(R.id.btnBack);
     }
@@ -74,5 +83,32 @@ public class ForgotPasswordActivity extends AppCompatActivity {
 
     private boolean isValidEmail(String email) {
         return android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches();
+=======
+        btnResetPassword = findViewById(R.id.btnResetPassword);
+        btnBackToLogin = findViewById(R.id.btnBackToLogin);
+    }
+
+    private void setupClickListeners() {
+        btnResetPassword.setOnClickListener(v -> validateAndReset());
+        btnBackToLogin.setOnClickListener(v -> finish());
+    }
+
+    private void validateAndReset() {
+        String email = etEmail.getText().toString().trim();
+
+        tilEmail.setError(null);
+
+        if (email.isEmpty()) {
+            tilEmail.setError("Ingrese su correo");
+            return;
+        }
+
+        if (!email.contains("@")) {
+            tilEmail.setError("Correo inválido");
+            return;
+        }
+
+        Toast.makeText(this, "Enlace de recuperación enviado a " + email, Toast.LENGTH_SHORT).show();
+>>>>>>> bc0cbcb (solucione errores)
     }
 }

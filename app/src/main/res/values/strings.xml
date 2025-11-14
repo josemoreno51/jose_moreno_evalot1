@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <resources>
     <string name="app_name">PPS App</string>
     <string name="app_name_full">PPS - Volvamos a Empezar</string>
@@ -6,5 +7,36 @@
     <string name="login">Iniciar Sesión</string>
     <string name="create_account">Crear Cuenta</string>
     <string name="forgot_password">Recuperar Contraseña</string>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PPS App</string>
+    <string name="app_name_full">PPS - Volvamos a Empezar</string>
+    
+    <!-- Login Screen -->
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="login_subtitle">Accede a tu cuenta</string>
+    <string name="username_hint">Usuario</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="forgot_password_link">¿Olvidaste tu contraseña?</string>
+    <string name="create_account_button">Crear Nueva Cuenta</string>
+    
+    <!-- Create Account Screen -->
+    <string name="create_account_title">Crear Cuenta</string>
+    <string name="full_name_hint">Nombre Completo</string>
+    <string name="email_hint">Correo Electrónico</string>
+    <string name="phone_hint">Teléfono</string>
+    <string name="address_hint">Dirección</string>
+    <string name="create_button">Crear Cuenta</string>
+    <string name="back_to_login">Volver al Login</string>
+    
+    <!-- Forgot Password Screen -->
+    <string name="forgot_password_title">Recuperar Contraseña</string>
+    <string name="forgot_password_subtitle">Ingresa tu email para recuperar tu contraseña</string>
+    <string name="reset_password_button">Recuperar Contraseña</string>
+    
+    <!-- General -->
+>>>>>>> bc0cbcb (solucione errores)
     <string name="logo_pps">Logo PPS Volvamos a Empezar</string>
 </resources>
