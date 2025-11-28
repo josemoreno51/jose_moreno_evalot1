@@ -15,100 +15,27 @@
         <!-- Logo PPS -->
         <ImageView
             android:id="@+id/ivLogo"
-<<<<<<< HEAD
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginTop="60dp"
-=======
             android:layout_width="96dp"
             android:layout_height="96dp"
             android:layout_marginTop="40dp"
->>>>>>> bc0cbcb (solucione errores)
             android:layout_marginBottom="40dp"
             android:src="@drawable/logo_pps"
             android:contentDescription="@string/logo_pps" />
 
-<<<<<<< HEAD
-        <!-- Título en ROJO -->
-=======
-        <!-- Título -->
->>>>>>> bc0cbcb (solucione errores)
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-<<<<<<< HEAD
-            android:text="Recuperar Contraseña"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:gravity="center"
-            android:textColor="@color/primary_red" />
-
-        <!-- Instrucciones en NEGRO -->
-=======
             android:text="@string/login_title"
             android:textSize="28sp"
             android:textStyle="bold"
             android:gravity="center"
             android:textColor="@color/primary_color" />
 
-        <!-- Subtítulo -->
->>>>>>> bc0cbcb (solucione errores)
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="32dp"
-<<<<<<< HEAD
-            android:text="Ingresa tu email para recuperar tu contraseña"
-            android:textSize="16sp"
-            android:gravity="center"
-            android:textColor="@color/primary_black"
-            android:lineSpacingExtra="4dp"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp" />
-
-        <!-- Campo Email con borde NEGRO -->
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/tilEmail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="32dp"
-            app:boxStrokeColor="@color/primary_black"
-            app:errorEnabled="true">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/etEmail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Email"
-                android:textColor="@color/primary_black"
-                android:textColorHint="@color/dark_gray"
-                android:inputType="textEmailAddress" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <!-- Botón Recuperar Contraseña en VERDE -->
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnRecoverPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:text="Recuperar Contraseña"
-            android:textSize="16sp"
-            android:textColor="@color/white"
-            app:backgroundColor="@color/primary_green"
-            app:cornerRadius="8dp" />
-
-        <!-- Botón Volver en NEGRO -->
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnBack"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Volver al Login"
-            android:textSize="16sp"
-            android:textColor="@color/white"
-            app:backgroundColor="@color/primary_black"
-=======
             android:text="@string/login_subtitle"
             android:textSize="16sp"
             android:gravity="center"
@@ -187,7 +114,6 @@
             android:text="@string/create_account_button"
             android:textSize="16sp"
             android:backgroundTint="@color/gray"
->>>>>>> bc0cbcb (solucione errores)
             app:cornerRadius="8dp" />
 
         <!-- Botón Google Login -->

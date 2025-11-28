@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-package com.example.ppsapp;
-=======
+
 package com.example.pps;
->>>>>>> bc0cbcb (solucione errores)
 
 import android.content.DialogInterface;
 import android.content.Intent;
