@@ -23,7 +23,7 @@ import com.google.firebase.auth.GoogleAuthProvider;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private TextInputEditText etUsername, etPassword;
+    private  TextInputEditText etUsername, etPassword;
     private TextInputLayout tilUsername, tilPassword;
     private MaterialButton btnLogin, btnGoogleLogin;
     private FirebaseAuth auth;
