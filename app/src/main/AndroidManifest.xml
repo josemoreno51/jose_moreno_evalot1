@@ -11,7 +11,6 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar">
-        <!-- Cambia Theme.AppTheme por esto ↑ -->
 
         <!-- Login Activity (Main) -->
         <activity
@@ -23,6 +22,12 @@
             </intent-filter>
         </activity>
 
+        <!-- View Noticia Activity -->
+        <activity
+            android:name=".ViewNoticiaActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
         <!-- Create Account Activity -->
         <activity
             android:name=".CreateAccountActivity"
@@ -31,6 +36,21 @@
         <!-- Forgot Password Activity -->
         <activity
             android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+
+        <!-- Home Activity -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+
+        <!-- Add Noticia Activity -->
+        <activity
+            android:name=".AddNoticiaActivity"
+            android:exported="false" />
+
+        <!-- Noticia Detail Activity (¿Es la misma que ViewNoticiaActivity?) -->
+        <activity
+            android:name=".NoticiaDetailActivity"
             android:exported="false" />
 
     </application>

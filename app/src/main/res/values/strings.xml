@@ -12,7 +12,7 @@
 <resources>
     <string name="app_name">PPS App</string>
     <string name="app_name_full">PPS - Volvamos a Empezar</string>
-    
+
     <!-- Login Screen -->
     <string name="login_title">Iniciar Sesión</string>
     <string name="login_subtitle">Accede a tu cuenta</string>
@@ -21,7 +21,7 @@
     <string name="login_button">Iniciar Sesión</string>
     <string name="forgot_password_link">¿Olvidaste tu contraseña?</string>
     <string name="create_account_button">Crear Nueva Cuenta</string>
-    
+
     <!-- Create Account Screen -->
     <string name="create_account_title">Crear Cuenta</string>
     <string name="full_name_hint">Nombre Completo</string>
@@ -30,13 +30,21 @@
     <string name="address_hint">Dirección</string>
     <string name="create_button">Crear Cuenta</string>
     <string name="back_to_login">Volver al Login</string>
-    
+
     <!-- Forgot Password Screen -->
     <string name="forgot_password_title">Recuperar Contraseña</string>
     <string name="forgot_password_subtitle">Ingresa tu email para recuperar tu contraseña</string>
     <string name="reset_password_button">Recuperar Contraseña</string>
-    
+
     <!-- General -->
 >>>>>>> bc0cbcb (solucione errores)
     <string name="logo_pps">Logo PPS Volvamos a Empezar</string>
+
+    <!-- Google Authentication -->
+    <string name="default_web_client_id">658572832552-avnclvpcqkb3135h2aqeabmljengunrc.apps.googleusercontent.com</string>
+    <string name="sign_in_with_google">Iniciar con Google</string>
+    <string name="google_sign_in_failed">Error con Google Sign In</string>
+    <string name="welcome_user">¡Bienvenido %1$s!</string>
+    <string name="google_auth_success">Autenticación con Google exitosa</string>
+    <string name="google_auth_failed">Error en autenticación con Google</string>
 </resources>

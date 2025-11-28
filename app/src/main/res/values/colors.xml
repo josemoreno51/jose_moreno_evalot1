@@ -1,31 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Colores principales rojo, verde y negro -->
-    <color name="primary_red">#FF0000</color>
-    <color name="primary_green">#00FF00</color>
-    <color name="primary_black">#000000</color>
-    <color name="dark_red">#CC0000</color>
-    <color name="dark_green">#00CC00</color>
-    <color name="light_black">#333333</color>
+    <!-- Paleta principal INVERTIDA - Negro profesional -->
+    <color name="primary_blue">#FF212529</color>
+    <color name="primary_blue_dark">#FF000000</color>
+    <color name="primary_blue_light">#FF495057</color>
 
-    <!-- Colores de fondo y texto -->
-    <color name="white">#FFFFFF</color>
-    <color name="light_gray">#F5F5F5</color>
-    <color name="medium_gray">#9E9E9E</color>
-    <color name="dark_gray">#666666</color>
-<<<<<<< HEAD
-=======
+    <!-- Colores de acento INVERTIDOS - Blanco fresco -->
+    <color name="accent_green">#FFFFFFFF</color>
+    <color name="accent_green_dark">#FFE9ECEF</color>
+    <color name="accent_green_light">#FFF8F9FA</color>
 
-    <!-- Colores faltantes para Material Design -->
+    <!-- Colores neutros INVERTIDOS -->
+    <color name="white">#FF212529</color>
+    <color name="background_gray">#FF000000</color>
+    <color name="light_gray">#FF121212</color>
+    <color name="medium_gray">#FF6C757D</color>
+    <color name="dark_gray">#FFFFFFFF</color>
+    <color name="black">#FFFFFFFF</color>
+
+    <!-- Colores para botones y estados INVERTIDOS -->
+    <color name="success_green">#FFFFFFFF</color>
+    <color name="warning_orange">#FFFFC107</color>
+    <color name="error_red">#FFDC3545</color>
+    <color name="info_blue">#FF17A2B8</color>
+
+    <!-- Colores de texto INVERTIDOS -->
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#FFE9ECEF</color>
+    <color name="text_light">#FF212529</color>
+
+    <!-- Gradientes y sombras -->
+    <color name="shadow_light">#1AFFFFFF</color>
+    <color name="shadow_dark">#33FFFFFF</color>
+    <color name="overlay_dark">#80FFFFFF</color>
+
+    <!-- Colores Material Design actualizados -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
 
-    <!-- Colores requeridos por layouts -->
-    <color name="primary_color">#6200EE</color>
-    <color name="gray">#9E9E9E</color>
->>>>>>> bc0cbcb (solucione errores)
+    <!-- Compatibilidad - nombres para layouts existentes INVERTIDOS -->
+    <color name="primary_color">#FF212529</color>
+    <color name="primary_red">#FFDC3545</color>
+    <color name="primary_green">#FFFFFFFF</color>
+    <color name="primary_black">#FFFFFFFF</color>
+    <color name="gray">#FF6C757D</color>
+    <color name="gray_light">#FF121212</color>
 </resources>
