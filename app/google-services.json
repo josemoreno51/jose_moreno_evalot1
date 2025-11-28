@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "658572832552",
+    "project_id": "pps-99d20939",
+    "storage_bucket": "pps-99d20939.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658572832552:android:a3da31e9426d6c2984aa1d",
+        "android_client_info": {
+          "package_name": "com.example.pps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSciAqo4CFdHENejgufptDZDbUbueycYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
