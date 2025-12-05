@@ -13,16 +13,37 @@
         android:gravity="center_horizontal"
         android:layout_gravity="center_vertical">
 
-        <!-- ESPACIO SUPERIOR MÁS GRANDE -->
+        <!-- BOTÓN DE SALIR EN LA ESQUINA SUPERIOR DERECHA -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp">
+
+            <Button
+                android:id="@+id/btnSalir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="X"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:minWidth="50dp"
+                android:minHeight="50dp"
+                android:background="@drawable/btn_salir_redondo"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+        <!-- ESPACIO SUPERIOR -->
         <Space
             android:layout_width="match_parent"
-            android:layout_height="80dp" />
+            android:layout_height="20dp" />
 
-        <!-- Título BAJADO MÁS -->
+        <!-- Título -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="60dp"
+            android:layout_marginBottom="40dp"
             android:text="Agregar Noticia"
             android:textSize="34sp"
             android:textStyle="bold"
@@ -36,7 +57,7 @@
             android:layout_height="55dp"
             android:hint="Título"
             android:gravity="center"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="20dp"
             android:textSize="17sp" />
 
         <EditText
@@ -45,16 +66,67 @@
             android:layout_height="55dp"
             android:hint="Resumen"
             android:gravity="center"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="20dp"
             android:textSize="17sp" />
 
+        <!-- SECCIÓN PARA LA FOTO -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Imagen de la Noticia"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/primary_blue_dark" />
+
+        <!-- Vista previa de la imagen -->
+        <ImageView
+            android:id="@+id/ivPreview"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/light_gray"
+            android:scaleType="centerCrop"
+            android:contentDescription="Vista previa de la imagen" />
+
+        <!-- Botón para seleccionar foto -->
+        <Button
+            android:id="@+id/btnSeleccionarFoto"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="25dp"
+            android:text="📷 Seleccionar Foto"
+            android:textSize="16sp"
+            android:backgroundTint="@color/primary_blue"
+            android:textColor="@color/white" />
+
+        <!-- O mostrar enlace para URL de imagen -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O ingresa URL de la imagen:"
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/medium_gray" />
+
+        <EditText
+            android:id="@+id/etUrlImagen"
+            android:layout_width="320dp"
+            android:layout_height="55dp"
+            android:hint="https://ejemplo.com/imagen.jpg"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"
+            android:textSize="15sp"
+            android:inputType="textUri" />
+
+        <!-- Contenido -->
         <EditText
             android:id="@+id/etContenido"
             android:layout_width="320dp"
             android:layout_height="200dp"
             android:hint="Contenido"
             android:gravity="top|center_horizontal"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="20dp"
             android:textSize="17sp" />
 
         <EditText
@@ -63,7 +135,7 @@
             android:layout_height="55dp"
             android:hint="Autor"
             android:gravity="center"
-            android:layout_marginBottom="50dp"
+            android:layout_marginBottom="40dp"
             android:textSize="17sp" />
 
         <!-- Botones -->

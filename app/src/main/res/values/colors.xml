@@ -1,51 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Paleta principal INVERTIDA - Negro profesional -->
-    <color name="primary_blue">#FF212529</color>
-    <color name="primary_blue_dark">#FF000000</color>
-    <color name="primary_blue_light">#FF495057</color>
+    <!-- ==================== -->
+    <!-- COLORES BÁSICOS (OBLIGATORIOS) -->
+    <!-- ==================== -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_gray">#FFE0E0E0</color> <!-- AQUÍ ESTÁ EL QUE FALTA -->
 
-    <!-- Colores de acento INVERTIDOS - Blanco fresco -->
-    <color name="accent_green">#FFFFFFFF</color>
-    <color name="accent_green_dark">#FFE9ECEF</color>
-    <color name="accent_green_light">#FFF8F9FA</color>
+    <!-- ==================== -->
+    <!-- PALETA PRINCIPAL -->
+    <!-- ==================== -->
+    <color name="primary_dark">#FF212529</color>
+    <color name="primary_black">#FF000000</color>
+    <color name="primary_gray">#FF495057</color>
+    <color name="accent_white">#FFFFFFFF</color>
+    <color name="accent_light">#FFE9ECEF</color>
+    <color name="accent_lighter">#FFF8F9FA</color>
 
-    <!-- Colores neutros INVERTIDOS -->
-    <color name="white">#FF212529</color>
-    <color name="background_gray">#FF000000</color>
-    <color name="light_gray">#FF121212</color>
+    <!-- ==================== -->
+    <!-- BOTONES -->
+    <!-- ==================== -->
+    <color name="btn_salir_background">#FFFFFFFF</color>
+    <color name="btn_salir_text">#FF212529</color>
+    <color name="btn_guardar">#FFFFFFFF</color>
+    <color name="btn_guardar_text">#FF212529</color>
+    <color name="btn_cancelar">#FF6C757D</color>
+    <color name="btn_cancelar_text">#FFFFFFFF</color>
+    <color name="btn_foto">#FF212529</color>
+    <color name="btn_foto_text">#FFFFFFFF</color>
+
+    <!-- ==================== -->
+    <!-- GRISES -->
+    <!-- ==================== -->
+    <color name="gray_light">#FF121212</color>
+    <color name="gray_medium">#FF6C757D</color>
+    <color name="gray_dark">#FF343A40</color>
+    <color name="background_dark">#FF000000</color>
+    <color name="background_gray_dark">#FF121212</color>
+
+    <!-- Compatibilidad -->
     <color name="medium_gray">#FF6C757D</color>
     <color name="dark_gray">#FFFFFFFF</color>
-    <color name="black">#FFFFFFFF</color>
 
-    <!-- Colores para botones y estados INVERTIDOS -->
-    <color name="success_green">#FFFFFFFF</color>
-    <color name="warning_orange">#FFFFC107</color>
-    <color name="error_red">#FFDC3545</color>
-    <color name="info_blue">#FF17A2B8</color>
-
-    <!-- Colores de texto INVERTIDOS -->
+    <!-- ==================== -->
+    <!-- TEXTO -->
+    <!-- ==================== -->
+    <color name="text_on_dark">#FFFFFFFF</color>
+    <color name="text_on_dark_secondary">#FFE9ECEF</color>
+    <color name="text_on_dark_light">#FFADB5BD</color>
+    <color name="text_on_light">#FF212529</color>
+    <color name="text_on_light_secondary">#FF495057</color>
     <color name="text_primary">#FFFFFFFF</color>
     <color name="text_secondary">#FFE9ECEF</color>
     <color name="text_light">#FF212529</color>
 
-    <!-- Gradientes y sombras -->
+    <!-- ==================== -->
+    <!-- ESTADOS -->
+    <!-- ==================== -->
+    <color name="error_red">#FFDC3545</color>
+    <color name="warning_orange">#FFFFC107</color>
+    <color name="info_blue">#FF17A2B8</color>
+    <color name="success_green">#FFFFFFFF</color>
+    <color name="success_green_dark">#FFE9ECEF</color>
+
+    <!-- ==================== -->
+    <!-- UI ELEMENTS -->
+    <!-- ==================== -->
+    <color name="border_light">#FF495057</color>
+    <color name="border_dark">#FF343A40</color>
+    <color name="placeholder">#FF343A40</color>
+    <color name="skeleton">#FF495057</color>
     <color name="shadow_light">#1AFFFFFF</color>
     <color name="shadow_dark">#33FFFFFF</color>
     <color name="overlay_dark">#80FFFFFF</color>
 
-    <!-- Colores Material Design actualizados -->
+    <!-- ==================== -->
+    <!-- MATERIAL DESIGN -->
+    <!-- ==================== -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
 
-    <!-- Compatibilidad - nombres para layouts existentes INVERTIDOS -->
+    <!-- ==================== -->
+    <!-- COMPATIBILIDAD -->
+    <!-- ==================== -->
+    <color name="primary_blue">#FF212529</color>
+    <color name="primary_blue_dark">#FF000000</color>
+    <color name="primary_blue_light">#FF495057</color>
+    <color name="accent_green">#FFFFFFFF</color>
+    <color name="accent_green_dark">#FFE9ECEF</color>
+    <color name="accent_green_light">#FFF8F9FA</color>
+    <color name="background_gray">#FF000000</color>
     <color name="primary_color">#FF212529</color>
     <color name="primary_red">#FFDC3545</color>
     <color name="primary_green">#FFFFFFFF</color>
-    <color name="primary_black">#FFFFFFFF</color>
     <color name="gray">#FF6C757D</color>
-    <color name="gray_light">#FF121212</color>
 </resources>
